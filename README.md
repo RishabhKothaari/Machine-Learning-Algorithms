@@ -17,6 +17,18 @@ Neural network structure: The neural network takes in (28x28) 784 inputs, one hi
   Learining rate - [eta](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/a5163da699f9cabe7b109b084ab3d96fccaef532/digitClassifier.py#L11) = 0.1
   
   Momentum - [alpha](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/a5163da699f9cabe7b109b084ab3d96fccaef532/digitClassifier.py#L14) = 0.9
+  
+
+##### Accuracy vs Parameters
+
+η | α | n | Training Accuracy| Test Accuracy |
+--|---|---|------------------|---------------|
+0.1|0.9|20|[96%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-20.png)|[93%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-20.png)|
+0.1|0.9|50|[98%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-50.png)|[96.8%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-50.png)|
+0.1|0.9|100|[99.6%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-100.png)|[96.85%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-1-n-100.png)|
+0.1|0|100|[99.6%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.png)|[97.7%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.png)|
+0.1|0.25|100|[99.6%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.25.png)|[97.7%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.25.png)|
+0.1|0.5|100|[99.6%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.5.png)|[97.6%](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/plots/exp-2-alpha-0.5.png)|
 
 #### [k-Means Clustering](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/kMeans.py)
 Unsupervised learning with [k-Means](https://en.wikipedia.org/wiki/K-means_clustering) clustering using [EM algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)
