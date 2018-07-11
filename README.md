@@ -3,7 +3,6 @@ This repository contains implementation of basic ML algorithms Models in Python 
 
 ### Algorithms
 
-1.
 #### [Neural Network](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/digitClassifier.py)
 Supervised learning using a Neural Network to predict a function that classisfies MNIST digits.
 
@@ -19,7 +18,6 @@ Neural network structure: The neural network takes in (28x28) 784 inputs, one hi
   
   Momentum - [alpha](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/a5163da699f9cabe7b109b084ab3d96fccaef532/digitClassifier.py#L14) = 0.9
 
-2. 
 #### [k-Means Clustering](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/kMeans.py)
 Unsupervised learning with [k-Means](https://en.wikipedia.org/wiki/K-means_clustering) clustering using [EM algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm)
 ##### Parameters
