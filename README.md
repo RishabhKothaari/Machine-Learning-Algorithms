@@ -1,8 +1,6 @@
 # Machine-Learning-Models
 This repository contains implementation of basic ML algorithms Models in Python without use of any frameworks.
-### Dependencies
-1. Python
-2. Matplotlib
+
 ### Algorithms
 
 #### [Neural Network](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/digitClassifier.py)
@@ -66,3 +64,7 @@ k = 4
 ![k=2](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/gmm-plots/gmm-k-4-r-max-l.png)
 k = 5
 ![k=2](https://github.com/rishab-pdx/Machine-Learning-Algorithms/blob/master/gmm-plots/gmm-k-5-r-max-l.png)
+
+#### Dependencies
+1. Python
+2. Matplotlib
